@@ -27,6 +27,11 @@ body::after {
   background-position: center;
 }
 
+/* Links */
+a:link { text-decoration: none; color: #335577; /*font-weight: bold;*/ padding: 0 5px;}
+a:visited { text-decoration: none; color: #557799; /*font-weight: bold;*/ padding: 0 5px; }
+a:hover, a:active { color: #990000; /*background-color: #eae5cf;*/ }
+
 .row::after {
   content: "";
   clear: both;
